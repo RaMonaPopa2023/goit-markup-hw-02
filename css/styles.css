@@ -11,7 +11,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.link_active:active {
+.page_header .link_active:active {
   color: var(--link-active-color);
 }
 .page_header a,
@@ -46,7 +46,7 @@ h2 {
   color: #000000;
 }
 .logo_web .logo_studio {
-  font-style: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
