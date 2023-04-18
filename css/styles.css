@@ -11,12 +11,13 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.page_header a.active {
+.link_active:active {
   color: var(--link-active-color);
 }
 .page_header a,
 .page_header a:visited {
   color: #757575;
+  text-decoration: none;
 }
 .main_navigation a,
 .main_navigation a:visited {
