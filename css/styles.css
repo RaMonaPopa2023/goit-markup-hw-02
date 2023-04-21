@@ -11,9 +11,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.page_header .link_active:active {
-  color: var(--link-active-color);
-}
+
 .page_header a,
 .page_header a:visited {
   color: #757575;
@@ -25,6 +23,9 @@
 }
 .page_header a:hover,
 .page_header a:focus {
+  color: var(--link-active-color);
+}
+.main_navigation a.link_active {
   color: var(--link-active-color);
 }
 body {
@@ -52,14 +53,13 @@ h2 {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-.page_header {
-  background: #ffffff;
-}
+
 .page_header {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  background: #ffffff;
 }
 .hero_section {
   background: #2f303a;
